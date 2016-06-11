@@ -12,19 +12,19 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'delayed_job_active_record'
 
-gem 'jbuilder', '~> 2.0'
-gem 'sass-rails', '~> 5.0'
-gem 'uglifier', '>= 1.3.0'
-gem 'coffee-rails', '~> 4.1.0'
-gem 'bcrypt', '~> 3.1.7'
-gem 'faraday', '~> 0.9.2'
-gem 'httparty', '~> 0.13.7'
+gem 'jbuilder'
+gem 'sass-rails'
+gem 'uglifier'
+gem 'coffee-rails'
+gem 'bcrypt'
+gem 'faraday'
+gem 'httparty'
 
 
-gem 'sdoc', '~> 0.4.0', group: :doc
+gem 'sdoc', group: :doc
 
 group :development do
-  gem 'web-console', '~> 2.0'
+  gem 'web-console'
   gem 'spring'
 end
 
