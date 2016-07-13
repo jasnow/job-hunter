@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '4.2.7.rc1'
+gem 'rails', '4.2.7'
 
 gem 'timeout'
 gem 'capybara'
