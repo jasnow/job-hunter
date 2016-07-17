@@ -1,4 +1,3 @@
-# encoding: UTF-8
 # This file is auto-generated from the current state of the database. Instead
 # of editing this file, please use the migrations feature of Active Record to
 # incrementally modify your database, and then regenerate this schema definition.
@@ -28,9 +27,8 @@ ActiveRecord::Schema.define(version: 20160420135333) do
     t.string   "queue"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.index ["priority", "run_at"], name: "delayed_jobs_priority", using: :btree
   end
-
-  add_index "delayed_jobs", ["priority", "run_at"], name: "delayed_jobs_priority", using: :btree
 
   create_table "jobs", force: :cascade do |t|
     t.string   "title"
@@ -46,9 +44,8 @@ ActiveRecord::Schema.define(version: 20160420135333) do
     t.integer  "user_id"
     t.string   "logo"
     t.string   "hex_id"
+    t.index ["user_id"], name: "index_jobs_on_user_id", using: :btree
   end
-
-  add_index "jobs", ["user_id"], name: "index_jobs_on_user_id", using: :btree
 
   create_table "users", force: :cascade do |t|
     t.string   "username"
@@ -67,9 +64,8 @@ ActiveRecord::Schema.define(version: 20160420135333) do
     t.string   "document_content_type"
     t.integer  "document_file_size"
     t.datetime "document_updated_at"
+    t.index ["username"], name: "index_users_on_username", unique: true, using: :btree
   end
-
-  add_index "users", ["username"], name: "index_users_on_username", unique: true, using: :btree
 
   add_foreign_key "jobs", "users"
 end
