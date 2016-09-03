@@ -31,7 +31,7 @@ end
 group :development, :test do
   gem 'capybara-webkit'
   gem 'selenium'
-  gem 'selenium-webdriver'
+  gem 'selenium-webdriver', '3.0.0.beta3.1'
   gem 'byebug'
   gem 'sqlite3'
   gem 'dotenv-rails'
