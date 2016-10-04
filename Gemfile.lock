@@ -181,7 +181,7 @@ GEM
       rdoc (~> 4.0)
     selenium (0.2.11)
       jar_wrapper
-    selenium-webdriver (3.0.0.beta3.1)
+    selenium-webdriver (3.0.0.beta4.0)
       childprocess (~> 0.5)
       rubyzip (~> 1.0)
       websocket (~> 1.0)
@@ -245,7 +245,7 @@ DEPENDENCIES
   sass-rails
   sdoc
   selenium
-  selenium-webdriver (= 3.0.0.beta3.1)
+  selenium-webdriver (= 3.0.0.beta4.0)
   spring
   sqlite3
   timeout
