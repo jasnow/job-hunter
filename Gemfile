@@ -21,7 +21,7 @@ gem 'faraday'
 gem 'httparty'
 
 
-gem 'sdoc', group: :doc
+gem 'sdoc', '1.0.0.beta2', group: :doc
 
 group :development do
   gem 'web-console'
