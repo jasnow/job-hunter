@@ -59,7 +59,7 @@ GEM
     capybara-webkit (1.12.0)
       capybara (>= 2.3.0, < 2.13.0)
       json
-    childprocess (0.5.9)
+    childprocess (0.6.1)
       ffi (~> 1.0, >= 1.0.11)
     climate_control (0.1.0)
     cocaine (0.5.8)
@@ -260,4 +260,4 @@ DEPENDENCIES
   web-console
 
 BUNDLED WITH
-   1.14.1
+   1.14.2
