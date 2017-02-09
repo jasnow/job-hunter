@@ -187,7 +187,7 @@ GEM
       rdoc (= 5.0.0.beta2)
     selenium (0.2.11)
       jar_wrapper
-    selenium-webdriver (3.0.7)
+    selenium-webdriver (3.0.8)
       childprocess (~> 0.5)
       rubyzip (~> 1.0)
       websocket (~> 1.0)
